@@ -1,0 +1,111 @@
+
+
+/* Responsive CSS for screens with a maximum width of 840px */
+@media screen and (max-width: 840px) {
+    .navbar {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 0;
+    }
+    
+    .nav {
+      width: 100%;
+      margin-top: 20px;
+    }
+    
+    .list {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .nav li a {
+      font-size: 16px;
+      margin: 5px;
+    }
+    
+    .image {
+      width: 30%;
+    }
+    
+    .image img {
+      width: 70%;
+    }
+    
+    .box1 {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .left1, .right1 {
+      width: 90%;
+      padding: 10px;
+    }
+    
+    .right1 img {
+      width: 100%;
+      margin: 10px 0;
+    }
+    
+    .section2 h2, .section3 h2, .section4 h2 {
+      font-size: 30px;
+    }
+    
+    .box2, .box31, .box32 {
+      flex-direction: column;
+    }
+    
+    .left2, .mid2, .right2 {
+      width: 80%;
+      margin: 10px auto;
+    }
+    
+    .box2 img {
+      width: 100%;
+      padding: 5px;
+      border-radius: 10px;
+    }
+    
+    .serve {
+      width: 90%;
+      padding: 15px;
+      margin: 10px auto;
+    }
+    
+    .serve h3 {
+      font-size: 20px;
+      padding: 5px;
+      margin: 5px;
+    }
+    
+    .box4 {
+      flex-direction: column;
+    }
+    
+    .form {
+      width: 80%;
+    }
+    
+    .form-group input {
+      width: 100%;
+    }
+    
+    .box4 button {
+      width: 100%;
+    }
+    
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-logo img {
+      margin: 10px auto;
+    }
+    
+    .footer-links ul li {
+      margin-bottom: 5px;
+    }
+  }
+  
